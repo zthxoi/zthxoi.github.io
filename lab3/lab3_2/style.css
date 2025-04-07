@@ -13,7 +13,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
  font-family: Roboto, Arial, Helvetica, sans-serif;
  text-align: right;
- color: #302683;
+ color: #a64ccf;
 }
 em {
  color: #4eb543;
@@ -29,8 +29,8 @@ strong {
  font-family: Caveat;
 }
 article {
- border: 5px solid #302683;
- border-radius: 120%;
+ border: 10px solid #a64ccf;
+ border-radius: 50px;
  margin: 1em;
  padding: 1em;
 } 
