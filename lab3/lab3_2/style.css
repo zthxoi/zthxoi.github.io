@@ -30,7 +30,7 @@ strong {
 }
 article {
  border: 5px solid #302683;
- border-radius: 6px;
+ border-radius: 50%;
  margin: 1em;
  padding: 1em;
 } 
