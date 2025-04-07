@@ -1,11 +1,11 @@
-
+@import "reset.css";
 
 html {
  background-color: #000000;
  color: #ffffff;
  font-size: 1.5rem;
  line-height: 2rem;
- background: url(pattern-pentagons-spread.svg);
+ background: url(pattern-micro-dottes.svg);
 }
 p {
  text-align: right;
