@@ -2,45 +2,42 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>flex</title>
+    <title>grid</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 10px; 
         }
 
-        .flex-container {
-            display: flex;
-            padding: 10px;
-            align-items: flex-start; /* Align items to the top */
+        .grid-container {
+            display: grid; 
+            grid-template-columns: 200px 1fr 200px; 
+            gap: 10px; 
+            align-items: flex-start;
         }
 
-        .flex-item {
-            padding: 10px;
-            box-sizing: border-box;
+        .grid-item {
+            padding: 10px; 
         }
 
-        #left-flex {
-            min-width: 200px;
-            background: #ccf;
+        #left-inline {
+            background: #ccf; 
         }
 
-        #center-flex {
-            flex-grow: 1;
+        #center-inline {
             background: #cfc;
-            margin: 0 10px;
         }
 
-        #right-flex {
-            min-width: 200px;
-            background: #fcc;
+        #right-inline {
+            background: #fcc; 
         }
     </style>
 </head>
 <body>
-    <div class="flex-container">
+    <div class="grid-container">
         <div id="left-flex" class="flex-item">left<br>left<br>left<br>left<br>left<br>left</div>
-        <div id="center-flex" class="flex-item">
+        <div id="center-inline" class="grid-item">
             center text text text text text text text text text text text text text
             text text text text text text text text text text text text text text
             text text text text text text text text text text text text text text
